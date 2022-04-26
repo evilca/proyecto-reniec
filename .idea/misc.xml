@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_form.xml" value="0.2" />
+        <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_menu.xml" value="0.234375" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/fila.xml" value="0.264" />
       </map>
     </option>

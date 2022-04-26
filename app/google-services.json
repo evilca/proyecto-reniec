@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "546998197153",
+    "firebase_url": "https://clase-firebase-1e6d5-default-rtdb.firebaseio.com",
+    "project_id": "clase-firebase-1e6d5",
+    "storage_bucket": "clase-firebase-1e6d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546998197153:android:7e28ed28928a952a1e49e0",
+        "android_client_info": {
+          "package_name": "com.evilca.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546998197153-cu0k27g7vu94n45fh07sknfpikm5ajod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.evilca.firebaseapp",
+            "certificate_hash": "a5627bb3a3dda344d77facead1c49ef06bb7d1e8"
+          }
+        },
+        {
+          "client_id": "546998197153-o5d500kromu90gep4r27oeoip028ij0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy1a8M1q15dwmBrRDmVQ1lIdtibucA1Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546998197153-o5d500kromu90gep4r27oeoip028ij0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

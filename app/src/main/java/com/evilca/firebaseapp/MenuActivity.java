@@ -48,7 +48,12 @@ public class MenuActivity extends AppCompatActivity {
     cvMaps.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            startActivity(new Intent(MenuActivity.this, MapsActivity.class));
+            Intent intent = new Intent(MenuActivity.this, MapsActivity.class);
+//            intent.putExtra("latitud", "-11.948514");
+//            intent.putExtra("longitud", "-76.9856886");
+//            intent.putExtra("titulo", "Oficina Principal");
+            intent.putExtra("varios","1");
+            startActivity(intent);
         }
     });
 

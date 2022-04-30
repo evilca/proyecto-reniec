@@ -38,8 +38,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String emailUser = txtEmail.getText().toString().trim();
                 String passUser  = txtPassword.getText().toString().trim();
-
-                if(emailUser.isEmpty() && passUser.isEmpty()){
+                if(emailUser.isEmpty() || passUser.isEmpty()){
                     Toast.makeText(LoginActivity.this, "Es necesario ingresar todos los datos para continuar", Toast.LENGTH_SHORT).show();
                 }else{
                     loginUser(emailUser, passUser);

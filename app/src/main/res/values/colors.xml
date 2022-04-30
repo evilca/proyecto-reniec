@@ -7,4 +7,35 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="shimmer">#E7E7E7</color>
+
+    <color name="grey_border">#EBF0FF</color>
+
+    <color name="GreySeparator">#E8EDF1</color>
+    <!--Colors Reniec-->
+    <color name="inactive">#E8E8E9</color>
+    <!--General-->
+    <color name="text_digitar">#525F7F</color>
+    <color name="text_reg">#ADB5BD</color>
+
+    <color name="StrongBlue">#232C4B</color>
+    <color name="MineralGreen">#4CA99C</color>
+    <color name="AccentRed">#EB5449</color>
+    <color name="NaturalBlue">#215372</color>
+    <color name="DialogBackground">#80232C4B</color>
+    <!--App-->
+    <color name="CloudNormal">#EFF2F5</color>
+    <color name="GreyForm">#EAECEF</color>
+    <color name="InkLighter">#697D95</color>
+    <color name="Grey2">#C6C6C6</color>
+    <color name="Grey4">#5D5E60</color>
+    <!--Background Colors-->
+    <color name="MineralGreen2">#6BB5AB</color>
+    <color name="NaturalBlueDisabled">#869FB0</color>
+    <color name="Grey5">#878C9D</color>
+    <!--MenuActivity-->
+    <color name="transparent">#1AFFFFFF</color>
+    <color name="transparent2">#55000000</color>
+    <!--ProgresBar - Color-->
+    <color name="orangePb">#EB5449</color>
 </resources>

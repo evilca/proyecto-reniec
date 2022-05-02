@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.evilca.firebaseapp.preetiquetado.EditarRangoActivity;
 import com.evilca.firebaseapp.preetiquetado.PreetiquetadoActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -16,7 +17,7 @@ public class MenuActivity extends AppCompatActivity {
 
     Button btnCerrarSesion;
     FirebaseAuth mAuth;
-    CardView cvPreetiquetado,cvMaps;
+    CardView cvPreetiquetado,cvMaps, cvEditarRango;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,9 @@ public class MenuActivity extends AppCompatActivity {
     private void asignarReferencias() {
     btnCerrarSesion = findViewById(R.id.btnCerrarSesion);
     cvPreetiquetado = findViewById(R.id.cvPreetiquetado);
+    cvEditarRango   = findViewById(R.id.cvEditarRango);
     cvMaps          = findViewById(R.id.cvMaps);
+
     btnCerrarSesion.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -39,6 +42,15 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(new Intent(MenuActivity.this,LoginActivity.class));
         }
     });
+
+    cvEditarRango.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(MenuActivity.this, EditarRangoActivity.class);
+            startActivity(intent);
+        }
+    });
+
     cvPreetiquetado.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {

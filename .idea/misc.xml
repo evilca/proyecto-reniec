@@ -6,15 +6,17 @@
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/drawable/bg_button_action.xml" value="0.2845" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/drawable/drop_down_item.xml" value="0.303" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/drawable/selector_button_action.xml" value="0.2845" />
+        <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_editar_rango.xml" value="0.2328125" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_form.xml" value="0.2" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_init.xml" value="0.24166666666666667" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_maps.xml" value="0.19635416666666666" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_menu.xml" value="0.1" />
-        <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_preetiquetado.xml" value="0.264" />
+        <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/activity_preetiquetado.xml" value="0.2" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/drop_down_item.xml" value="0.2994791666666667" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/fila.xml" value="0.264" />
+        <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/fila_preetiqueta.xml" value="0.264" />
         <entry key="..\:/DesarrolloDeAplicacionesMoviles/firebaseApp/app/src/main/res/layout/notificacion.xml" value="0.25104166666666666" />
       </map>
     </option>

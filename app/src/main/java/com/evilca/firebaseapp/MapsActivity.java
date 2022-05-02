@@ -58,16 +58,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         .title(listaPuntos.get(i).getTitulo())
                 );
             }
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(listaPuntos.get(listaPuntos.size()-1).getPunto(),12));
+            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(listaPuntos.get(listaPuntos.size()-1).getPunto(),14));
         }
     }
 
     private void datosVarios() {
     //Desde aqui se puede manejar el retorno de datos para mostrar en el mapa
 
-        listaPuntos.add(new Coordenada(new LatLng(-11.948514,-76.9856886),"Oficina Principal"));
-        listaPuntos.add(new Coordenada(new LatLng(-11.959472,-76.9903557),"Estacion del Tren"));
-        listaPuntos.add(new Coordenada(new LatLng(-11.985412,-77.0086296),"San Carlos Av"));
+        listaPuntos.add(new Coordenada(new LatLng(-12.0509881,-77.0387572),"Reniec Sede SJL"));
+        listaPuntos.add(new Coordenada(new LatLng(-12.0509881,-76.9903557),"Reniec Sede Ucayali"));
+        listaPuntos.add(new Coordenada(new LatLng(-12.0561084,-77.0394867),"Reniec Centro Cívico"));
     }
 
     private void recuperarDatos() {

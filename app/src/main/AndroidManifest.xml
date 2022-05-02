@@ -3,9 +3,8 @@
     package="com.evilca.firebaseapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebaseApp"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".preetiquetado.EditarRangoActivity"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -40,7 +41,7 @@
             android:exported="false" />
         <activity
             android:name=".InitActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MenuActivity"
             android:exported="true">

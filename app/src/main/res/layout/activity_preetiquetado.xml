@@ -83,20 +83,21 @@
                 android:layout_height="68dp"
                 android:orientation="horizontal"
                 >
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Desde"
                     android:layout_gravity="center"
-                    android:textSize="18dp"
-                    android:layout_marginStart="20dp"/>
+                    android:layout_marginStart="20dp"
+                    android:text="Cantidad de Archivos"
+                    android:textSize="18dp" />
 
                 <Button
                     android:id="@+id/btnDisminuirDesde"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
-                    android:layout_marginStart="150dp"
+                    android:layout_marginStart="30dp"
                     android:text="--"
                     android:textSize="26dp"
                     android:background="@drawable/selector_button_action"
@@ -130,14 +131,14 @@
                     />
 
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:background="@color/grey_border"
-                    />
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="2dp"-->
+<!--                    android:background="@color/grey_border"-->
+<!--                    />-->
             <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="68dp"
+                    android:layout_height="60dp"
             >
 
                 <TextView
@@ -149,32 +150,37 @@
                     android:layout_marginStart="20dp"/>
 
                 <Button
+                    android:id="@+id/btnDisminuirHasta"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="153dp"
-                    android:text="--"
-                    android:textSize="26dp"
                     android:background="@drawable/selector_button_action"
+                    android:text="--"
                     android:enabled="false"
                     android:textAlignment="center"
                     android:textColor="@color/white"
+                    android:textSize="26dp"
                     app:tint="@color/white" />
+
                 <TextView
+                    android:id="@+id/lblTextHasta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="20dp"
                     android:text="1"
                     android:textSize="20dp" />
+
                 <Button
+                    android:id="@+id/btnAumentarHasta"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
-                    android:layout_marginStart="22dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="@drawable/selector_button_action"
                     android:enabled="false"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginStart="22dp"
+                    android:background="@drawable/selector_button_action"
                     android:text="+"
                     android:textAlignment="center"
                     android:textColor="@color/white"
@@ -189,9 +195,9 @@
         </androidx.cardview.widget.CardView>
 
     <Button
+        android:id="@+id/btnGuardarPreetiqueta"
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:layout_marginBottom="100dp"
         android:backgroundTint="@color/MineralGreen"
         android:minHeight="48dp"
         android:text="Guardar"

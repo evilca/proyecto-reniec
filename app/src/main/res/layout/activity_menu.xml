@@ -58,13 +58,14 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cvEditarRango"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                app:cardElevation="5dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
                 app:cardCornerRadius="20dp"
-                android:layout_margin="12dp">
+                app:cardElevation="5dp">
 
                 <LinearLayout
                     android:layout_width="138dp"
@@ -75,7 +76,7 @@
 
                     <ImageView
                         android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_height="97dp"
                         android:src="@drawable/mn_02" />
 
                     <TextView

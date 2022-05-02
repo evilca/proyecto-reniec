@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private List<Persona> listaPersonas = new ArrayList<>();
 //    ArrayAdapter<Persona> personaArrayAdapter;
     AdaptadorPersonalizado adaptador;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

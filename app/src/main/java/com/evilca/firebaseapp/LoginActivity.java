@@ -25,12 +25,14 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        setTitle("Ingreso");
         mAuth = FirebaseAuth.getInstance();
         asignarReferencias();
     }
 
     private void asignarReferencias() {
         txtEmail    = findViewById(R.id.txtEmail);
+        txtEmail.setText("operaciones01@reniec.pe");
         txtPassword = findViewById(R.id.txtPassword);
         btnIngresar = findViewById(R.id.btnIngresar);
         btnIngresar.setOnClickListener(new View.OnClickListener() {
@@ -57,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
             if(task.isSuccessful()){
                 finish();
                 startActivity(new Intent(LoginActivity.this,MenuActivity.class));
-                Toast.makeText(LoginActivity.this, "Bienvenido", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "Bienvenido, Operador", Toast.LENGTH_SHORT).show();
             }else{
                 Toast.makeText(LoginActivity.this, "El usuario o contraseña no existe", Toast.LENGTH_SHORT).show();
             }

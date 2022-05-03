@@ -7,7 +7,6 @@
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
-        app:cardBackgroundColor="@color/MineralGreen"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:padding="10dp"
@@ -15,7 +14,10 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/custom_cardview_editar_rangos"
+            >
 
 
             <TextView
@@ -49,10 +51,10 @@
                 android:text="Inicial"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.377"
+                app:layout_constraintHorizontal_bias="0.411"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.567" />
+                app:layout_constraintVertical_bias="0.578" />
 
             <ImageButton
                 android:id="@+id/filaEditarRango"
@@ -103,10 +105,10 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.378"
+                app:layout_constraintHorizontal_bias="0.416"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.333" />
+                app:layout_constraintVertical_bias="0.328" />
 
             <TextView
                 android:id="@+id/textView13"

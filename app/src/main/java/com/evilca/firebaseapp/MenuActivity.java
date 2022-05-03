@@ -17,7 +17,7 @@ public class MenuActivity extends AppCompatActivity {
 
     Button btnCerrarSesion;
     FirebaseAuth mAuth;
-    CardView cvPreetiquetado,cvMaps, cvEditarRango;
+    CardView cvPreetiquetado,cvMaps, cvEditarRango, cvCamara;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,7 @@ public class MenuActivity extends AppCompatActivity {
     cvPreetiquetado = findViewById(R.id.cvPreetiquetado);
     cvEditarRango   = findViewById(R.id.cvEditarRango);
     cvMaps          = findViewById(R.id.cvMaps);
+    cvCamara        = findViewById(R.id.cvCamara);
 
     btnCerrarSesion.setOnClickListener(new View.OnClickListener() {
         @Override
@@ -40,6 +41,14 @@ public class MenuActivity extends AppCompatActivity {
         mAuth.signOut();
             Toast.makeText(MenuActivity.this, "Sesion Finalizada", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(MenuActivity.this,LoginActivity.class));
+        }
+    });
+
+    cvCamara.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(MenuActivity.this, Camara.class);
+            startActivity(intent);
         }
     });
 

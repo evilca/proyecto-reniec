@@ -52,7 +52,6 @@ public class EditarRangoActivity extends AppCompatActivity {
                 listaPreetiquetas.clear();
                 for (DataSnapshot item:snapshot.getChildren()){
                     Preetiqueta p = item.getValue(Preetiqueta.class);
-                    Toast.makeText(EditarRangoActivity.this, " "+p, Toast.LENGTH_SHORT).show();
                     listaPreetiquetas.add(p);
                 }
 
